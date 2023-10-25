@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #404969;
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.cabecalho {
+    height: 10vh;
+    width: 100vw;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    height: 90vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+section {
+    width: 100vw;
+    background-image: #6a7a95;
+}
+
+.experiencia,
+.hard {
+    min-height: 90vh;
+    width: 100vw;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.experiencia,
+.formacao,
+.hard h2 {
+    padding-top: 10vh;
+}
+
+#eu {
+    background-image: url('../img/bg1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.eu {
+    width: 100vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #00000090;
+}
+
+.eu div {
+    min-height: 90vh;
+    width: 100vw;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.eu img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10vh;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+.experiencia {
+    text-align: center;
+}
+
+.experiencia div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.formacao {
+    text-align: center;
+}
+
+.formacao div {
+    background-color: #1d2338;
+}
+
+.formacao--cabecalho {
+    margin-bottom: 4rem;
+    padding: 2%;
+}
+
+.formacao--conteudo {
+    height: 50vh;
+    margin-top: 3rem;
+    text-align: left;
+}
+
+ul {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+.card {
+    height: 35vh;
+    width: 100%;
+    padding: 1rem;
+    background-color: #1d2338;
+}
+
+.hard {
+    text-align: center;
+}
+
+.hard div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    background: #1d2338;
+}
+
+footer i {
+    font-size: 3rem;
+}
