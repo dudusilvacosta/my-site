@@ -1,10 +1,7 @@
+
+var header = document.querySelector("#header");
 window.addEventListener("scroll", function() {
-    var header = document.getElementById("header");
-    if (window.scrollY > 10) {
-        header.classList.add("scrolled");
-    } else {
-        header.classList.remove("scrolled");
-    }
+    header.classList.toggle("rolagem", window.scrollY > 0);
 });
 
 
