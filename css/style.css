@@ -20,12 +20,18 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #d3d2d4;
+    color: #6d2c6c;
     font-weight: 600;
 }
 
 i {
     font-size: 2rem;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid #d3d2d4;
 }
 
 html {
@@ -95,6 +101,7 @@ main {
     height: 200px;
     margin-top: calc(10vh + 2rem);
     margin-bottom: 2rem;
+    border: #1b0a1b 5px solid;
     border-radius: 50%;
 }
 
@@ -119,7 +126,7 @@ main {
 }
 
 .experiencia .card {
-    min-height: 400px;
+    min-height: 550px;
 }
 
 .card {
@@ -162,6 +169,14 @@ main {
     max-width: 1024px;
     margin: 0 auto;
     padding: 1rem;
+}
+
+.portifolio .card {
+    min-height: 335px;
+}
+
+.narrativas {
+    font-size: 1.107rem;
 }
 
 footer {
