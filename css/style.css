@@ -20,7 +20,7 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #6d2c6c;
+    color: #1b0a1b;
     font-weight: 600;
 }
 
@@ -36,6 +36,7 @@ hr {
 
 html {
     color: #d3d2d4;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -44,15 +45,21 @@ body {
 }
 
 header {
+    height: 15vh;
     position: fixed;
     top: 0;
     right: 0;
     width: 100vw;
-    background-color: #1b0a1b;
+    transition-duration: .5s;
+}
+
+header.scrolled {
+    height: 10vh;
+    background-color: #371636;
 }
 
 .cabecalho {
-    height: 10vh;
+    height: 100%;
     width: 100vw;
     max-width: 1024px;
     margin: 0 auto;
@@ -75,12 +82,6 @@ nav {
 .bi-list {
     display: none;
     cursor: pointer;
-}
-
-main {
-    height: 90vh;
-    overflow: scroll;
-    scroll-behavior: smooth;
 }
 
 #eu {
