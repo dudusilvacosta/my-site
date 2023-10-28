@@ -20,7 +20,7 @@ h4 {
 
 a {
     text-decoration: none;
-    color: #1b0a1b;
+    color: #d3d2d4;
     font-weight: 600;
 }
 
@@ -41,7 +41,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #6d2c6c;
+    background-color: #371636;
 }
 
 header {
@@ -55,7 +55,7 @@ header {
 
 header.scrolled {
     height: 10vh;
-    background-color: #371636;
+    background-color: #6d2c6c;
 }
 
 .cabecalho {
@@ -136,8 +136,16 @@ nav {
     background-color: #371636;
 }
 
-#habilidades {
+#formacao {
     background-color: #522151;
+}
+
+.formacao {
+    min-height: 90vh;
+    width: 100vw;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .habilidades {
@@ -153,12 +161,8 @@ nav {
     column-count: 4;
 }
 
-.formacao {
-    min-height: 90vh;
-    width: 100vw;
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 1rem;
+.habilidades .card {
+    background-color: #522151;
 }
 
 #portifolio {
@@ -174,11 +178,15 @@ nav {
 }
 
 .portifolio .card {
-    min-height: 335px;
+    min-height: 180px;
 }
 
 .narrativas {
     font-size: 1.107rem;
+}
+
+.bi-box-arrow-up-right {
+    font-size: 1.25rem;
 }
 
 footer {
@@ -217,9 +225,5 @@ footer {
 
     .grid2 {
         column-count: 2;
-    }
-
-    .portifolio .card {
-        min-height: 200px;
     }
 }
