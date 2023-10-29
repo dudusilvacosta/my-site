@@ -34,6 +34,18 @@ hr {
     border-top: 1px solid #d3d2d4;
 }
 
+.grid1 {
+    column-count: 2;
+}
+
+.grid2 {
+    column-count: 4;
+}
+
+.grid3 {
+    column-count: 3;
+}
+
 html {
     color: #d3d2d4;
     scroll-behavior: smooth;
@@ -84,13 +96,13 @@ nav {
     cursor: pointer;
 }
 
-#eu {
+#sobre {
     background-image: url('../img/bg.png');
     background-position: center;
     background-size: cover;
 }
 
-.eu {
+.sobre {
     min-height: 100vh;
     width: 100vw;
     padding: 1rem;
@@ -98,7 +110,7 @@ nav {
     background-color: #6d2c6c90;
 }
 
-.eu img {
+.sobre img {
     width: 200px;
     height: 200px;
     margin-top: 20vh;
@@ -106,7 +118,7 @@ nav {
     border-radius: 50%;
 }
 
-.eu div {
+.sobre div {
     width: calc(100vw - 2rem);
     max-width: 1024px;
     margin: 0 auto;
@@ -123,12 +135,8 @@ nav {
     padding: 1rem;
 }
 
-.grid1 {
-    column-count: 2;
-}
-
 .experiencia .card {
-    min-height: 540px;
+    min-height: 500px;
 }
 
 .card {
@@ -159,14 +167,6 @@ nav {
     max-width: 1024px;
     margin: 0 auto;
     padding: 1rem;
-}
-
-.grid2 {
-    column-count: 4;
-}
-
-.grid3 {
-    column-count: 3;
 }
 
 #portifolio {
