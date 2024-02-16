@@ -34,20 +34,9 @@ hr {
     border-top: 1px solid #d3d2d4;
 }
 
-.grid1 {
-    column-count: 3;
-}
-
-.grid2 {
-    column-count: 2;
-}
-
-.grid3 {
-    column-count: 3;
-}
-
-.grid4 {
-    column-count: 4;
+.grid {
+    display: grid;
+    gap: 1rem;
 }
 
 html {
@@ -140,6 +129,10 @@ nav {
     padding: 1rem;
 }
 
+.experiencia .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .card {
     margin-bottom: 1rem;
     padding: 1rem;
@@ -158,6 +151,10 @@ nav {
     padding: 1rem;
 }
 
+.formacao .grid {
+    grid-template-columns: 1fr 1fr;
+}
+
 .formacao .card {
     background-color: #371636;
 }
@@ -168,6 +165,10 @@ nav {
     max-width: 1024px;
     margin: 0 auto;
     padding: 1rem;
+}
+
+.habilidades .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .habilidades .card {
@@ -195,6 +196,10 @@ nav {
     max-width: 1024px;
     margin: 0 auto;
     padding: 1rem;
+}
+
+.portifolio .grid {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .portifolio .card {
@@ -234,12 +239,7 @@ footer {
         background-color: #1b0a1b;
     }
 
-    .grid1,
-    .grid3 {
-        column-count: 1;
-    }
-
-    .grid2 {
-        column-count: 2;
+    .grid {
+        grid-template-columns: 1fr;
     }
 }
