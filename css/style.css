@@ -239,7 +239,8 @@ footer {
         background-color: #1b0a1b;
     }
 
-    .grid {
+    #experiencia .grid,
+    #formacao .grid {
         grid-template-columns: 1fr;
     }
 }
