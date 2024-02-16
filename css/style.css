@@ -35,15 +35,19 @@ hr {
 }
 
 .grid1 {
-    column-count: 2;
+    column-count: 3;
 }
 
 .grid2 {
-    column-count: 4;
+    column-count: 2;
 }
 
 .grid3 {
     column-count: 3;
+}
+
+.grid4 {
+    column-count: 4;
 }
 
 html {
