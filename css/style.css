@@ -240,7 +240,8 @@ footer {
     }
 
     #experiencia .grid,
-    #formacao .grid {
+    #formacao .grid,
+    #portifolio .grid {
         grid-template-columns: 1fr;
     }
 }
